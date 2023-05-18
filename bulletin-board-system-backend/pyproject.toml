@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bulletin-board-system-backend"
+version = "0.1.0"
+description = ""
+authors = ["abdelrahmanIEl-Batal <abdelrahman.elbatal19@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.2.8"
+Pillow = "^8.4.0"
+python-dotenv = "^0.19.1"
+psycopg2 = "^2.9.1"
+djangorestframework = "^3.12.4"
+django-rest-knox = "^4.1.0"
+knox = "^0.1.14"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
